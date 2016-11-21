@@ -1,0 +1,15 @@
+# Output products list for <ADDER_32>
+ADDER_32.asy
+ADDER_32.gise
+ADDER_32.ngc
+ADDER_32.sym
+ADDER_32.vhd
+ADDER_32.vho
+ADDER_32.xco
+ADDER_32.xise
+ADDER_32\doc\c_addsub_v11_0_readme.txt
+ADDER_32\doc\c_addsub_v11_0_vinfo.html
+ADDER_32\doc\ds214_addsub.pdf
+ADDER_32_flist.txt
+ADDER_32_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

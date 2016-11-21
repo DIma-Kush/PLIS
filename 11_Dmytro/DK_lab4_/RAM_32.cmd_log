@@ -1,0 +1,16 @@
+vhdtdtfi -lib work RAM32.vhd -prj DK_lab4_ -o RAM_32.spl -module RAM_32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 RAM_32.spl D:/Xilinx/backups/6/DK_lab4_/RAM_32.sym 
+vhdtdtfi -lib work RAM32.vhd -prj DK_lab4_ -o RAM_32.spl -module RAM_32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 RAM_32.spl D:/Xilinx/backups/6/DK_lab4_/RAM_32.sym 
+vhdtdtfi -lib work RAM32.vhd -prj DK_lab4_ -o RAM_32.spl -module RAM_32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 RAM_32.spl D:/Xilinx/backups/6/DK_lab4_/RAM_32.sym 
+vhdtdtfi -lib work RAM32.vhd -prj DK_lab4_ -o RAM_32.spl -module RAM_32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 RAM_32.spl D:/Xilinx/backups/6/DK_lab4_/RAM_32.sym 
+vhdtdtfi -lib work RAM32.vhd -prj DK_lab4_ -o RAM_32.spl -module RAM_32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 RAM_32.spl D:/Xilinx/backups/6/DK_lab4_/RAM_32.sym 
+vhdtdtfi -lib work RAM32.vhd -prj DK_lab4_ -o RAM_32.spl -module RAM_32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 RAM_32.spl D:/Xilinx/backups/6/DK_lab4_/RAM_32.sym 
+vhdtdtfi -lib work RAM32.vhd -prj DK_lab4_ -o RAM_32.spl -module RAM_32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 RAM_32.spl D:/Xilinx/backups/6/DK_lab4_/RAM_32.sym 
+vhdtdtfi -lib work RAM32.vhd -prj DK_lab4_ -o RAM_32.spl -module RAM_32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 RAM_32.spl D:/Xilinx/backups/6/DK_lab4_/RAM_32.sym 

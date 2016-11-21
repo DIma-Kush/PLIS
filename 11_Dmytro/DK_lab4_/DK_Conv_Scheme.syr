@@ -1,0 +1,691 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: DK_Conv_Scheme.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DK_Conv_Scheme.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DK_Conv_Scheme"
+Output Format                      : NGC
+Target Device                      : xc7vx330t-3-ffg1157
+
+---- Source Options
+Top Module Name                    : DK_Conv_Scheme
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\Xilinx\backups\6\DK_lab4_\ipcore_dir\mult_Core.vhd" into library work
+Parsing entity <mult_Core>.
+Parsing architecture <mult_Core_a> of entity <mult_core>.
+Parsing VHDL file "D:\Xilinx\backups\6\DK_lab4_\ipcore_dir\ADDER_32.vhd" into library work
+Parsing entity <ADDER_32>.
+Parsing architecture <ADDER_32_a> of entity <adder_32>.
+Parsing VHDL file "D:\Xilinx\backups\6\DK_lab4_\ipcore_dir\MUL32.vhd" into library work
+Parsing entity <MUL32>.
+Parsing architecture <MUL32_a> of entity <mul32>.
+Parsing VHDL file "D:\Xilinx\backups\6\DK_lab4_\DK_32_REGISTER.vhd" into library work
+Parsing entity <DK_register32>.
+Parsing architecture <description> of entity <dk_register32>.
+Parsing VHDL file "D:\Xilinx\backups\6\DK_lab4_\BUS_8_16_CONV.vhd" into library work
+Parsing entity <BUS_8_16_CONV>.
+Parsing architecture <Behavioral> of entity <bus_8_16_conv>.
+Parsing VHDL file "D:\Xilinx\backups\6\DK_lab4_\BUS_16_32_CONV.vhd" into library work
+Parsing entity <BUS_16_32_CONV>.
+Parsing architecture <Behavioral> of entity <bus_16_32_conv>.
+Parsing VHDL file "D:\Xilinx\backups\6\DK_lab4_\DK_Conv_Scheme.vhf" into library work
+Parsing entity <FD16CE_HXILINX_DK_Conv_Scheme>.
+Parsing architecture <Behavioral> of entity <fd16ce_hxilinx_dk_conv_scheme>.
+Parsing entity <DK_Conv_Scheme>.
+Parsing architecture <BEHAVIORAL> of entity <dk_conv_scheme>.
+Parsing VHDL file "D:\Xilinx\backups\6\DK_lab4_\test.vhf" into library work
+Parsing entity <test>.
+Parsing architecture <BEHAVIORAL> of entity <test>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <DK_Conv_Scheme> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <FD16CE_HXILINX_DK_Conv_Scheme> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <mult_Core> (architecture <mult_Core_a>) from library <work>.
+
+Elaborating entity <MUL32> (architecture <MUL32_a>) from library <work>.
+
+Elaborating entity <ADDER_32> (architecture <ADDER_32_a>) from library <work>.
+
+Elaborating entity <BUS_16_32_CONV> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DK_register32> (architecture <description>) from library <work>.
+
+Elaborating entity <BUS_8_16_CONV> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <DK_Conv_Scheme>.
+    Related source file is "D:\Xilinx\backups\6\DK_lab4_\DK_Conv_Scheme.vhf".
+    Set property "HU_SET = BUF_A1_4" for instance <buf_a1>.
+    Set property "HU_SET = BUF_A2_0" for instance <buf_a2>.
+    Set property "HU_SET = BUF_B1_5" for instance <buf_B1>.
+    Set property "HU_SET = BUF_B2_1" for instance <buf_B2>.
+    Set property "HU_SET = BUF_C_MUL_C_6" for instance <buf_c_mul_c>.
+    Set property "HU_SET = BUF_D1_3" for instance <buf_d1>.
+    Set property "HU_SET = BUF_D2_2" for instance <buf_d2>.
+    Set property "HU_SET = XLXI_74_7" for instance <XLXI_74>.
+    Set property "HU_SET = XLXI_78_8" for instance <XLXI_78>.
+    Set property "HU_SET = XLXI_79_9" for instance <XLXI_79>.
+    Set property "HU_SET = XLXI_198_10" for instance <XLXI_198>.
+    Summary:
+	no macro.
+Unit <DK_Conv_Scheme> synthesized.
+
+Synthesizing Unit <FD16CE_HXILINX_DK_Conv_Scheme>.
+    Related source file is "D:\Xilinx\backups\6\DK_lab4_\DK_Conv_Scheme.vhf".
+    Found 16-bit register for signal <Q>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <FD16CE_HXILINX_DK_Conv_Scheme> synthesized.
+
+Synthesizing Unit <BUS_16_32_CONV>.
+    Related source file is "D:\Xilinx\backups\6\DK_lab4_\BUS_16_32_CONV.vhd".
+    Summary:
+	no macro.
+Unit <BUS_16_32_CONV> synthesized.
+
+Synthesizing Unit <DK_register32>.
+    Related source file is "D:\Xilinx\backups\6\DK_lab4_\DK_32_REGISTER.vhd".
+    Found 32-bit register for signal <q>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <DK_register32> synthesized.
+
+Synthesizing Unit <BUS_8_16_CONV>.
+    Related source file is "D:\Xilinx\backups\6\DK_lab4_\BUS_8_16_CONV.vhd".
+    Summary:
+	no macro.
+Unit <BUS_8_16_CONV> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 14
+ 16-bit register                                       : 11
+ 32-bit register                                       : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/mult_Core.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/MUL32.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/ADDER_32.ngc>.
+Reading Secure Unit <blk00000001>.
+Loading core <mult_Core> for timing and area information for instance <XLXI_76>.
+Loading core <MUL32> for timing and area information for instance <XLXI_199>.
+Loading core <ADDER_32> for timing and area information for instance <XLXI_200>.
+Loading core <ADDER_32> for timing and area information for instance <XLXI_252>.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <XLXI_78>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <XLXI_78>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <XLXI_78>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <XLXI_78>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <XLXI_74>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <XLXI_74>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <XLXI_74>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <XLXI_74>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <XLXI_74>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <XLXI_74>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <XLXI_74>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <XLXI_74>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <buf_d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <buf_d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <buf_d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <buf_d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <buf_d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <buf_d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <buf_d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <buf_d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <XLXI_198>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <XLXI_198>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <XLXI_198>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <XLXI_198>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <XLXI_198>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <XLXI_198>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <XLXI_198>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <XLXI_198>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <XLXI_79>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <XLXI_79>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <XLXI_79>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <XLXI_79>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <XLXI_79>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <XLXI_79>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <XLXI_79>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <XLXI_79>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <XLXI_78>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <XLXI_78>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <XLXI_78>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <XLXI_78>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <buf_B1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <buf_B1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <buf_B1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <buf_B1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <buf_a2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <buf_a2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <buf_a2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <buf_a2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <buf_a2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <buf_a2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <buf_a2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <buf_a2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <buf_a1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <buf_a1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <buf_a1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <buf_a1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <buf_a1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <buf_a1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <buf_a1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <buf_a1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <buf_d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <buf_d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <buf_d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <buf_d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <buf_d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <buf_d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <buf_d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <buf_d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <buf_B2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <buf_B2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <buf_B2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <buf_B2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <buf_B2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <buf_B2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <buf_B2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <buf_B2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <buf_B1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <buf_B1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <buf_B1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <buf_B1>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 272
+ Flip-Flops                                            : 272
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <DK_Conv_Scheme> ...
+
+Optimizing unit <FD16CE_HXILINX_DK_Conv_Scheme> ...
+
+Optimizing unit <DK_register32> ...
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <buf_B1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <buf_B1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <buf_B1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <buf_B1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <buf_B2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <buf_B2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <buf_B2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <buf_B2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <buf_B2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <buf_B2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <buf_B2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <buf_B2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <buf_d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <buf_d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <buf_d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <buf_d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <buf_d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <buf_d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <buf_d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <buf_d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <buf_a1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <buf_a1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <buf_a1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <buf_a1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <buf_a1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <buf_a1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <buf_a1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <buf_a1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <buf_a2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <buf_a2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <buf_a2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <buf_a2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <buf_a2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <buf_a2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <buf_a2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <buf_a2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <buf_B1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <buf_B1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <buf_B1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <buf_B1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <XLXI_78>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <XLXI_78>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <XLXI_78>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <XLXI_78>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <XLXI_79>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <XLXI_79>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <XLXI_79>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <XLXI_79>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <XLXI_79>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <XLXI_79>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <XLXI_79>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <XLXI_79>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <XLXI_198>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <XLXI_198>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <XLXI_198>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <XLXI_198>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <XLXI_198>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <XLXI_198>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <XLXI_198>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <XLXI_198>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <buf_d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <buf_d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <buf_d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <buf_d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <buf_d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <buf_d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <buf_d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <buf_d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <XLXI_74>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <XLXI_74>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <XLXI_74>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <XLXI_74>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_11> has a constant value of 0 in block <XLXI_74>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_10> has a constant value of 0 in block <XLXI_74>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_9> has a constant value of 0 in block <XLXI_74>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_8> has a constant value of 0 in block <XLXI_74>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_15> has a constant value of 0 in block <XLXI_78>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_14> has a constant value of 0 in block <XLXI_78>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_13> has a constant value of 0 in block <XLXI_78>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Q_12> has a constant value of 0 in block <XLXI_78>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DK_Conv_Scheme, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 192
+ Flip-Flops                                            : 192
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : DK_Conv_Scheme.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 3771
+#      GND                         : 7
+#      INV                         : 2
+#      LUT2                        : 320
+#      LUT3                        : 112
+#      LUT4                        : 616
+#      MULT_AND                    : 664
+#      MUXCY                       : 1000
+#      VCC                         : 2
+#      XORCY                       : 1048
+# FlipFlops/Latches                : 304
+#      FD                          : 48
+#      FDCE                        : 192
+#      FDE                         : 64
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 68
+#      IBUF                        : 36
+#      OBUF                        : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7vx330tffg1157-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             304  out of  408000     0%  
+ Number of Slice LUTs:                 1050  out of  204000     0%  
+    Number used as Logic:              1050  out of  204000     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1354
+   Number with an unused Flip Flop:    1050  out of   1354    77%  
+   Number with an unused LUT:           304  out of   1354    22%  
+   Number of fully used LUT-FF pairs:     0  out of   1354     0%  
+   Number of unique control sets:        12
+
+IO Utilization: 
+ Number of IOs:                          69
+ Number of bonded IOBs:                  69  out of    600    11%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+C                                  | BUFGP                  | 304   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 5.101ns (Maximum Frequency: 196.049MHz)
+   Minimum input arrival time before clock: 1.357ns
+   Maximum output required time after clock: 0.511ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'C'
+  Clock period: 5.101ns (frequency: 196.049MHz)
+  Total number of paths / destination ports: 220402594 / 272
+-------------------------------------------------------------------------
+Delay:               5.101ns (Levels of Logic = 41)
+  Source:            XLXI_251/q_0 (FF)
+  Destination:       sec_inst (FF)
+  Source Clock:      C rising
+  Destination Clock: C rising
+
+  Data Path: XLXI_251/q_0 to sec_inst
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            32   0.232   0.563  XLXI_251/q_0 (XLXI_251/q_0)
+     begin scope: 'XLXI_199:a<0>'
+     begin scope: 'XLXI_199/blk00000001:A<0>'
+     SEC:in->out           1   0.043   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.230   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.251   0.343  sec_inst (sec_net)
+     SEC:in->out           1   0.043   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.230   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.251   0.343  sec_inst (sec_net)
+     SEC:in->out           1   0.043   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.230   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.251   0.343  sec_inst (sec_net)
+     SEC:in->out           1   0.043   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.230   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.251   0.343  sec_inst (sec_net)
+     SEC:in->out           1   0.043   0.000  sec_inst (sec_net)
+     SEC:in->out           0   0.230   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.251   0.000  sec_inst (sec_net)
+     SEC:in                   -0.001          sec_inst
+    ----------------------------------------
+    Total                      5.101ns (3.164ns logic, 1.936ns route)
+                                       (62.0% logic, 38.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'C'
+  Total number of paths / destination ports: 1600 / 544
+-------------------------------------------------------------------------
+Offset:              1.357ns (Levels of Logic = 35)
+  Source:            ZERO (PAD)
+  Destination:       sec_inst (FF)
+  Destination Clock: C rising
+
+  Data Path: ZERO to sec_inst
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            33   0.000   0.386  ZERO_IBUF (ZERO_IBUF)
+     begin scope: 'XLXI_252:add'
+     begin scope: 'XLXI_252/blk00000001:ADD'
+     SEC:in->out           1   0.053   0.279  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.012   0.000  sec_inst (sec_net)
+     SEC:in->out           0   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.251   0.000  sec_inst (sec_net)
+     SEC:in                   -0.001          sec_inst
+    ----------------------------------------
+    Total                      1.357ns (0.692ns logic, 0.666ns route)
+                                       (51.0% logic, 49.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'C'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              0.511ns (Levels of Logic = 1)
+  Source:            XLXI_231/q_31 (FF)
+  Destination:       DK_OUT2<31> (PAD)
+  Source Clock:      C rising
+
+  Data Path: XLXI_231/q_31 to DK_OUT2<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.232   0.279  XLXI_231/q_31 (XLXI_231/q_31)
+     OBUF:I->O                 0.000          DK_OUT2_31_OBUF (DK_OUT2<31>)
+    ----------------------------------------
+    Total                      0.511ns (0.232ns logic, 0.279ns route)
+                                       (45.4% logic, 54.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock C
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+C              |    5.101|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 19.00 secs
+Total CPU time to Xst completion: 18.41 secs
+ 
+--> 
+
+Total memory usage is 444500 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  160 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

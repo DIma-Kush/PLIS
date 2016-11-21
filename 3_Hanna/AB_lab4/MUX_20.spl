@@ -1,0 +1,8 @@
+[Inputs]
+s0
+CLK
+=data1[19:0]=
+=data2[19:0]=
+[Outputs]
+=data_o[19:0]=
+[BiDir]

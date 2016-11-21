@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Xilinx/backups/6/AB_lab4/AB_conv_scheme.xst" -ofn "D:/Xilinx/backups/6/AB_lab4/AB_conv_scheme.syr" 

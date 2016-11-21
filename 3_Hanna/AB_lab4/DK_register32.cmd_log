@@ -1,0 +1,1 @@
+vhdtdtfi -lib work AB_register_36.vhd -prj AB_lab4 -o DK_register32.spl -module DK_register32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 

@@ -1,0 +1,5 @@
+vhdl work "ipcore_dir/DK_counter.vhd"
+vhdl work "RAM32.vhd"
+vhdl work "test.vhf"
+vhdl work "DK_BUFFER.vhd"
+vhdl work "DK_sch.vhf"

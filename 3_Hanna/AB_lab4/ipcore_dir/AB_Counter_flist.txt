@@ -1,0 +1,17 @@
+# Output products list for <AB_Counter>
+AB_Counter.asy
+AB_Counter.gise
+AB_Counter.ngc
+AB_Counter.sym
+AB_Counter.vhd
+AB_Counter.vho
+AB_Counter.xco
+AB_Counter.xise
+AB_Counter\doc\c_counter_binary_v11_0_readme.txt
+AB_Counter\doc\c_counter_binary_v11_0_vinfo.html
+AB_Counter\doc\ds215_counter.pdf
+AB_Counter_flist.txt
+AB_Counter_xmdf.tcl
+_xmsgs\pn_parser.xmsgs
+core_resources.txt
+gui_latency.txt

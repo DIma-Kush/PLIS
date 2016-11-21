@@ -1,0 +1,2 @@
+vhdtdtfi -lib work BUS_20_36_CONV.vhd -prj AB_lab4 -o BUS_20_36_CONV.spl -module BUS_20_36_CONV -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 BUS_20_36_CONV.spl D:/Xilinx/backups/6/AB_lab4/BUS_20_36_CONV.sym 

@@ -1,0 +1,28 @@
+Command line:
+   AB_not_conv_scheme_AB_not_conv_scheme_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50121
+
+Tue Nov 22 01:03:47 2016
+
+
+ Elaboration Time: 0.15625 sec
+
+ Current Memory Usage: 852.713 Meg
+
+ Total Signals          : 626
+ Total Nets             : 3166
+ Total Signal Drivers   : 249
+ Total Blocks           : 233
+ Total Primitive Blocks : 189
+ Total Processes        : 220
+ Total Traceable Variables  : 586
+ Total Scalar Nets and Variables : 5189
+
+ Total Simulation Time: 1.21875 sec
+
+ Current Memory Usage: 695.427 Meg
+
+Tue Nov 22 01:11:22 2016
+

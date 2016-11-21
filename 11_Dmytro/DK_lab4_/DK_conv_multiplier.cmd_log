@@ -1,0 +1,5 @@
+vhdtdtfi -lib work DK_conv_multiplier.vhd -prj DK_lab4_ -o DK_conv_multiplier.spl -module DK_conv_multiplier -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 DK_conv_multiplier.spl D:/Xilinx/DK_lab4_/DK_conv_multiplier.sym 
+vhdtdtfi -prj DK_lab4_ -o DK_conv_multiplier.spl -module DK_conv_multiplier -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work DK_conv_multiplier.vhd -prj DK_lab4_ -o dk_conv_multiplier.spl -module dk_conv_multiplier -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 dk_conv_multiplier.spl D:/Xilinx/DK_lab4_/dk_conv_multiplier.sym 

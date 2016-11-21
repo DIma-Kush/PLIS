@@ -1,0 +1,15 @@
+# Output products list for <AB_ADDER_16_32>
+AB_ADDER_16_32.asy
+AB_ADDER_16_32.gise
+AB_ADDER_16_32.ngc
+AB_ADDER_16_32.sym
+AB_ADDER_16_32.vhd
+AB_ADDER_16_32.vho
+AB_ADDER_16_32.xco
+AB_ADDER_16_32.xise
+AB_ADDER_16_32\doc\c_addsub_v11_0_readme.txt
+AB_ADDER_16_32\doc\c_addsub_v11_0_vinfo.html
+AB_ADDER_16_32\doc\ds214_addsub.pdf
+AB_ADDER_16_32_flist.txt
+AB_ADDER_16_32_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

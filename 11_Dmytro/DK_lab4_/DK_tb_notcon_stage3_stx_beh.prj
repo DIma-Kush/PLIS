@@ -1,0 +1,5 @@
+vhdl isim_temp "DK_converter1.vhd"
+vhdl isim_temp "DK_sch.vhf"
+vhdl isim_temp "DK_tb_notcon_stage3.vhd"
+vhdl isim_temp "dk_Conv1_tb.vhd"
+vhdl isim_temp "test.vhf"

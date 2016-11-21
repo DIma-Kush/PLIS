@@ -1,0 +1,1 @@
+vhdtdtfi -prj AB_lab4 -o AB_MUX20.spl -module AB_MUX20 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 

@@ -1,0 +1,28 @@
+Command line:
+   DK_sch_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62910
+
+Fri Oct 21 22:36:01 2016
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 844.255 Meg
+
+ Total Signals          : 185
+ Total Nets             : 1599
+ Total Signal Drivers   : 45
+ Total Blocks           : 54
+ Total Primitive Blocks : 43
+ Total Processes        : 39
+ Total Traceable Variables  : 200
+ Total Scalar Nets and Variables : 2765
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 844.255 Meg
+
+Fri Oct 21 22:36:15 2016
+

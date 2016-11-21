@@ -1,0 +1,9 @@
+[Inputs]
+dk_clk
+dk_reset
+=dk_a[7:0]=
+=dk_b[7:0]=
+=dk_d[7:0]=
+[Outputs]
+=dk_y[15:0]=
+[BiDir]

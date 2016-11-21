@@ -1,0 +1,82 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Dima/Desktop/AB_lab4/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Dima/Desktop/AB_lab4/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: BUS_8_16_CONV.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Dima\Desktop\AB_lab4\ipcore_dir\AB_ADDER_16_32.vhd" into library work
+Parsing entity <AB_ADDER_16_32>.
+Parsing architecture <AB_ADDER_16_32_a> of entity <ab_adder_16_32>.
+Parsing VHDL file "C:\Users\Dima\Desktop\AB_lab4\ipcore_dir\AB_Counter.vhd" into library work
+Parsing entity <AB_Counter>.
+Parsing architecture <AB_Counter_a> of entity <ab_counter>.
+Parsing VHDL file "C:\Users\Dima\Desktop\AB_lab4\ipcore_dir\MUL_20.vhd" into library work
+Parsing entity <MUL_20>.
+Parsing architecture <MUL_20_a> of entity <mul_20>.
+Parsing VHDL file "C:\Users\Dima\Desktop\AB_lab4\AB_ROM.vhd" into library work
+Parsing entity <ROM_AB>.
+Parsing architecture <ROM_AB> of entity <rom_ab>.
+Parsing VHDL file "C:\Users\Dima\Desktop\AB_lab4\AB_register_20.vhd" into library work
+Parsing entity <AB_register20>.
+Parsing architecture <description> of entity <ab_register20>.
+Parsing VHDL file "C:\Users\Dima\Desktop\AB_lab4\AB_register8.vhd" into library work
+Parsing entity <AB_register8>.
+Parsing architecture <description> of entity <ab_register8>.
+Parsing VHDL file "C:\Users\Dima\Desktop\AB_lab4\AB_RAM.vhd" into library work
+Parsing entity <AB_RAM>.
+Parsing architecture <AB_RAM> of entity <ab_ram>.
+Parsing VHDL file "C:\Users\Dima\Desktop\AB_lab4\AB_MUX20.vhd" into library work
+Parsing entity <MUX_20>.
+Parsing architecture <Behavioral> of entity <mux_20>.
+Parsing VHDL file "C:\Users\Dima\Desktop\AB_lab4\BUS_8_16_CONV.vhd" into library work
+Parsing entity <BUS_8_16_CONV>.
+Parsing architecture <Behavioral> of entity <bus_8_16_conv>.
+Parsing VHDL file "C:\Users\Dima\Desktop\AB_lab4\BUS_8_20.vhd" into library work
+Parsing entity <BUS_8_20_CONV>.
+Parsing architecture <Behavioral> of entity <bus_8_120_conv>.
+ERROR:HDLCompiler:374 - "C:\Users\Dima\Desktop\AB_lab4\BUS_8_20.vhd" Line 37: Entity <bus_8_120_conv> is not yet compiled.
+ERROR:HDLCompiler:69 - "C:\Users\Dima\Desktop\AB_lab4\BUS_8_20.vhd" Line 41: <data_out> is not declared.
+VHDL file C:\Users\Dima\Desktop\AB_lab4\BUS_8_20.vhd ignored due to errors
+--> 
+
+Total memory usage is 286396 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

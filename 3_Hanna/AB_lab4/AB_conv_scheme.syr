@@ -1,0 +1,494 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: AB_conv_scheme.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "AB_conv_scheme.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "AB_conv_scheme"
+Output Format                      : NGC
+Target Device                      : xc7vx330t-3-ffg1157
+
+---- Source Options
+Top Module Name                    : AB_conv_scheme
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\Xilinx\backups\6\AB_lab4\ipcore_dir\AB_MUL_8_16.vhd" into library work
+Parsing entity <AB_MUL_8_16>.
+Parsing architecture <AB_MUL_8_16_a> of entity <ab_mul_8_16>.
+Parsing VHDL file "D:\Xilinx\backups\6\AB_lab4\ipcore_dir\AB_MUL_16_16.vhd" into library work
+Parsing entity <AB_MUL_16_16>.
+Parsing architecture <AB_MUL_16_16_a> of entity <ab_mul_16_16>.
+Parsing VHDL file "D:\Xilinx\backups\6\AB_lab4\ipcore_dir\AB_ADDER_16_32.vhd" into library work
+Parsing entity <AB_ADDER_16_32>.
+Parsing architecture <AB_ADDER_16_32_a> of entity <ab_adder_16_32>.
+Parsing VHDL file "D:\Xilinx\backups\6\DK_lab4_\BUS_8_16_CONV.vhd" into library work
+Parsing entity <BUS_8_16_CONV>.
+Parsing architecture <Behavioral> of entity <bus_8_16_conv>.
+Parsing VHDL file "D:\Xilinx\backups\6\AB_lab4\BUS_16_36_CONV.vhd" into library work
+Parsing entity <BUS_16_36_CONV>.
+Parsing architecture <Behavioral> of entity <bus_16_36_conv>.
+Parsing VHDL file "D:\Xilinx\backups\6\AB_lab4\AB_register_36.vhd" into library work
+Parsing entity <AB_register36>.
+Parsing architecture <description> of entity <ab_register36>.
+Parsing VHDL file "D:\Xilinx\backups\6\AB_lab4\AB_conv_scheme.vhf" into library work
+Parsing entity <FD16CE_HXILINX_AB_conv_scheme>.
+Parsing architecture <Behavioral> of entity <fd16ce_hxilinx_ab_conv_scheme>.
+Parsing entity <FD8CE_HXILINX_AB_conv_scheme>.
+Parsing architecture <Behavioral> of entity <fd8ce_hxilinx_ab_conv_scheme>.
+Parsing entity <AB_conv_scheme>.
+Parsing architecture <BEHAVIORAL> of entity <ab_conv_scheme>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <AB_conv_scheme> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <FD8CE_HXILINX_AB_conv_scheme> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <AB_MUL_8_16> (architecture <AB_MUL_8_16_a>) from library <work>.
+
+Elaborating entity <FD16CE_HXILINX_AB_conv_scheme> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <BUS_8_16_CONV> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <AB_MUL_16_16> (architecture <AB_MUL_16_16_a>) from library <work>.
+
+Elaborating entity <AB_ADDER_16_32> (architecture <AB_ADDER_16_32_a>) from library <work>.
+
+Elaborating entity <AB_register36> (architecture <description>) from library <work>.
+WARNING:HDLCompiler:92 - "D:\Xilinx\backups\6\AB_lab4\AB_register_36.vhd" Line 47: clr should be on the sensitivity list of the process
+
+Elaborating entity <BUS_16_36_CONV> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <AB_conv_scheme>.
+    Related source file is "D:\Xilinx\backups\6\AB_lab4\AB_conv_scheme.vhf".
+    Set property "HU_SET = XLXI_5_0" for instance <XLXI_5>.
+    Set property "HU_SET = XLXI_12_1" for instance <XLXI_12>.
+    Set property "HU_SET = XLXI_15_2" for instance <XLXI_15>.
+    Set property "HU_SET = XLXI_18_3" for instance <XLXI_18>.
+    Set property "HU_SET = XLXI_21_4" for instance <XLXI_21>.
+    Set property "HU_SET = XLXI_60_6" for instance <XLXI_60>.
+    Set property "HU_SET = XLXI_63_7" for instance <XLXI_63>.
+    Set property "HU_SET = XLXI_66_8" for instance <XLXI_66>.
+    Set property "HU_SET = XLXI_79_5" for instance <XLXI_79>.
+    Set property "HU_SET = XLXI_98_9" for instance <XLXI_98>.
+    Set property "HU_SET = XLXI_101_10" for instance <XLXI_101>.
+    Set property "HU_SET = XLXI_108_11" for instance <XLXI_108>.
+    Set property "HU_SET = XLXI_111_12" for instance <XLXI_111>.
+    Summary:
+	no macro.
+Unit <AB_conv_scheme> synthesized.
+
+Synthesizing Unit <FD8CE_HXILINX_AB_conv_scheme>.
+    Related source file is "D:\Xilinx\backups\6\AB_lab4\AB_conv_scheme.vhf".
+    Found 8-bit register for signal <Q>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <FD8CE_HXILINX_AB_conv_scheme> synthesized.
+
+Synthesizing Unit <FD16CE_HXILINX_AB_conv_scheme>.
+    Related source file is "D:\Xilinx\backups\6\AB_lab4\AB_conv_scheme.vhf".
+    Found 16-bit register for signal <Q>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <FD16CE_HXILINX_AB_conv_scheme> synthesized.
+
+Synthesizing Unit <BUS_8_16_CONV>.
+    Related source file is "D:\Xilinx\backups\6\DK_lab4_\BUS_8_16_CONV.vhd".
+    Summary:
+	no macro.
+Unit <BUS_8_16_CONV> synthesized.
+
+Synthesizing Unit <AB_register36>.
+    Related source file is "D:\Xilinx\backups\6\AB_lab4\AB_register_36.vhd".
+    Found 36-bit register for signal <q>.
+    Summary:
+	inferred  36 D-type flip-flop(s).
+Unit <AB_register36> synthesized.
+
+Synthesizing Unit <BUS_16_36_CONV>.
+    Related source file is "D:\Xilinx\backups\6\AB_lab4\BUS_16_36_CONV.vhd".
+    Summary:
+	no macro.
+Unit <BUS_16_36_CONV> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 14
+ 16-bit register                                       : 3
+ 36-bit register                                       : 1
+ 8-bit register                                        : 10
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/AB_MUL_8_16.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/AB_MUL_16_16.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/AB_ADDER_16_32.ngc>.
+Reading Secure Unit <blk00000001>.
+Loading core <AB_MUL_8_16> for timing and area information for instance <XLXI_39>.
+Loading core <AB_MUL_8_16> for timing and area information for instance <XLXI_104>.
+Loading core <AB_MUL_16_16> for timing and area information for instance <XLXI_105>.
+Loading core <AB_ADDER_16_32> for timing and area information for instance <XLXI_127>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 164
+ Flip-Flops                                            : 164
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <AB_conv_scheme> ...
+
+Optimizing unit <FD8CE_HXILINX_AB_conv_scheme> ...
+
+Optimizing unit <FD16CE_HXILINX_AB_conv_scheme> ...
+
+Optimizing unit <AB_register36> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block AB_conv_scheme, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 164
+ Flip-Flops                                            : 164
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : AB_conv_scheme.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1328
+#      GND                         : 5
+#      LUT2                        : 173
+#      LUT3                        : 32
+#      LUT4                        : 176
+#      MULT_AND                    : 208
+#      MUXCY                       : 350
+#      VCC                         : 4
+#      XORCY                       : 380
+# FlipFlops/Latches                : 248
+#      FD                          : 48
+#      FDCE                        : 128
+#      FDE                         : 36
+#      FDRE                        : 36
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 78
+#      IBUF                        : 42
+#      OBUF                        : 36
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7vx330tffg1157-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             248  out of  408000     0%  
+ Number of Slice LUTs:                  381  out of  204000     0%  
+    Number used as Logic:               381  out of  204000     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    629
+   Number with an unused Flip Flop:     381  out of    629    60%  
+   Number with an unused LUT:           248  out of    629    39%  
+   Number of fully used LUT-FF pairs:     0  out of    629     0%  
+   Number of unique control sets:        14
+
+IO Utilization: 
+ Number of IOs:                          79
+ Number of bonded IOBs:                  79  out of    600    13%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 248   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.008ns (Maximum Frequency: 249.513MHz)
+   Minimum input arrival time before clock: 1.136ns
+   Maximum output required time after clock: 0.511ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 4.008ns (frequency: 249.513MHz)
+  Total number of paths / destination ports: 643475 / 208
+-------------------------------------------------------------------------
+Delay:               4.008ns (Levels of Logic = 24)
+  Source:            XLXI_79/Q_0 (FF)
+  Destination:       sec_inst (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: XLXI_79/Q_0 to sec_inst
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            16   0.232   0.525  Q_0 (Q_0)
+     end scope: 'XLXI_79:Q<0>'
+     begin scope: 'XLXI_105:a<0>'
+     begin scope: 'XLXI_105/blk00000001:A<0>'
+     SEC:in->out           1   0.043   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.230   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.013   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.251   0.343  sec_inst (sec_net)
+     SEC:in->out           1   0.043   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.230   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.251   0.343  sec_inst (sec_net)
+     SEC:in->out           1   0.043   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.230   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.251   0.343  sec_inst (sec_net)
+     SEC:in->out           1   0.043   0.000  sec_inst (sec_net)
+     SEC:in->out           0   0.230   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.251   0.000  sec_inst (sec_net)
+     SEC:in                   -0.001          sec_inst
+    ----------------------------------------
+    Total                      4.008ns (2.453ns logic, 1.555ns route)
+                                       (61.2% logic, 38.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 148 / 112
+-------------------------------------------------------------------------
+Offset:              1.136ns (Levels of Logic = 2)
+  Source:            CE (PAD)
+  Destination:       XLXI_129/q_35 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: CE to XLXI_129/q_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            37   0.000   0.451  CE_IBUF (CE_IBUF)
+     LUT2:I0->O           36   0.043   0.387  XLXI_129/_n00081 (XLXI_129/_n0008)
+     FDRE:R                    0.255          XLXI_129/q_0
+    ----------------------------------------
+    Total                      1.136ns (0.298ns logic, 0.838ns route)
+                                       (26.2% logic, 73.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 36 / 36
+-------------------------------------------------------------------------
+Offset:              0.511ns (Levels of Logic = 1)
+  Source:            XLXI_129/q_35 (FF)
+  Destination:       AB_RES<35> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: XLXI_129/q_35 to AB_RES<35>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             1   0.232   0.279  XLXI_129/q_35 (XLXI_129/q_35)
+     OBUF:I->O                 0.000          AB_RES_35_OBUF (AB_RES<35>)
+    ----------------------------------------
+    Total                      0.511ns (0.232ns logic, 0.279ns route)
+                                       (45.4% logic, 54.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    4.008|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 14.88 secs
+ 
+--> 
+
+Total memory usage is 427100 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

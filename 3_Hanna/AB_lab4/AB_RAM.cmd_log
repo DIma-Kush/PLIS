@@ -1,0 +1,5 @@
+vhdtdtfi -lib work AB_RAM.vhd -prj AB_lab4 -o AB_RAM.spl -module AB_RAM -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work AB_RAM.vhd -prj AB_lab4 -o AB_RAM.spl -module AB_RAM -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 AB_RAM.spl C:/Users/Dima/Desktop/AB_lab4/AB_RAM.sym 
+vhdtdtfi -lib work AB_RAM.vhd -prj AB_lab4 -o AB_RAM.spl -module AB_RAM -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 AB_RAM.spl C:/Users/Dima/Desktop/AB_lab4/AB_RAM.sym 

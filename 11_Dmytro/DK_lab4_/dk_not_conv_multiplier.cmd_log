@@ -1,0 +1,8 @@
+vhdtdtfi -lib work dk_not_conv_multiplier.vhd -prj DK_lab4_ -o dk_not_conv_multiplier.spl -module dk_not_conv_multiplier -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 dk_not_conv_multiplier.spl D:/Xilinx/DK_lab4_/dk_not_conv_multiplier.sym 
+vhdtdtfi -lib work dk_not_conv_multiplier.vhd -prj DK_lab4_ -o dk_not_conv_multiplier.spl -module dk_not_conv_multiplier -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 dk_not_conv_multiplier.spl D:/Xilinx/DK_lab4_/dk_not_conv_multiplier.sym 
+vhdtdtfi -lib work dk_not_conv_multiplier.vhd -prj DK_lab4_ -o dk_not_conv_multiplier.spl -module dk_not_conv_multiplier -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 dk_not_conv_multiplier.spl D:/Xilinx/DK_lab4_/dk_not_conv_multiplier.sym 
+vhdtdtfi -lib work dk_not_conv_multiplier.vhd -prj DK_lab4_ -o dk_not_conv_multiplier.spl -module dk_not_conv_multiplier -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 dk_not_conv_multiplier.spl D:/Xilinx/DK_lab4_/dk_not_conv_multiplier.sym 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Xilinx/backups/6/DK_lab4_/DK_Conv_Scheme_DK_Conv_Scheme_sch_tb_isim_beh.exe" -prj "D:/Xilinx/backups/6/DK_lab4_/DK_Conv_Scheme_DK_Conv_Scheme_sch_tb_beh.prj" "work.DK_Conv_Scheme_DK_Conv_Scheme_sch_tb" 

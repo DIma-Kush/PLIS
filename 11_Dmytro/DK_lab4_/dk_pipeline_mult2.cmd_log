@@ -1,0 +1,2 @@
+vhdtdtfi -lib work testtest.vhd -prj DK_lab4_ -o dk_pipeline_mult2.spl -module dk_pipeline_mult2 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 dk_pipeline_mult2.spl D:/Xilinx/DK_lab4_/dk_pipeline_mult2.sym 

@@ -1,0 +1,4 @@
+vhdtdtfi -lib work BUS_16_36_CONV.vhd -prj AB_lab4 -o BUS_16_36_CONV.spl -module BUS_16_36_CONV -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 BUS_16_36_CONV.spl D:/Xilinx/backups/6/AB_lab4/BUS_16_36_CONV.sym 
+vhdtdtfi -lib work BUS_16_36_CONV.vhd -prj AB_lab4 -o BUS_16_36_CONV.spl -module BUS_16_36_CONV -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 BUS_16_36_CONV.spl D:/Xilinx/backups/6/AB_lab4/BUS_16_36_CONV.sym 

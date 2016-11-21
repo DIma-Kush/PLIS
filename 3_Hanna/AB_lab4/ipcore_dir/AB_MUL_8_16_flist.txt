@@ -1,0 +1,14 @@
+# Output products list for <AB_MUL_8_16>
+AB_MUL_8_16.asy
+AB_MUL_8_16.gise
+AB_MUL_8_16.ngc
+AB_MUL_8_16.sym
+AB_MUL_8_16.vhd
+AB_MUL_8_16.vho
+AB_MUL_8_16.xco
+AB_MUL_8_16.xise
+AB_MUL_8_16\doc\mult_gen_ds255.pdf
+AB_MUL_8_16\doc\mult_gen_v11_2_readme.txt
+AB_MUL_8_16\doc\mult_gen_v11_2_vinfo.html
+AB_MUL_8_16_flist.txt
+AB_MUL_8_16_xmdf.tcl

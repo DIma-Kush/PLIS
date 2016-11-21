@@ -1,0 +1,10 @@
+vhdtdtfi -lib work DK_ROM.vhd -prj DK_lab4_ -o ROM_DK.spl -module ROM_DK -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 ROM_DK.spl D:/Xilinx/backups/6/DK_lab4_/ROM_DK.sym 
+vhdtdtfi -lib work DK_ROM.vhd -prj DK_lab4_ -o ROM_DK.spl -module ROM_DK -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 ROM_DK.spl D:/Xilinx/backups/6/DK_lab4_/ROM_DK.sym 
+vhdtdtfi -lib work DK_ROM.vhd -prj DK_lab4_ -o ROM_DK.spl -module ROM_DK -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 ROM_DK.spl D:/Xilinx/backups/6/DK_lab4_/ROM_DK.sym 
+vhdtdtfi -lib work DK_ROM.vhd -prj DK_lab4_ -o ROM_DK.spl -module ROM_DK -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 ROM_DK.spl D:/Xilinx/backups/6/DK_lab4_/ROM_DK.sym 
+vhdtdtfi -lib work DK_ROM.vhd -prj DK_lab4_ -o ROM_DK.spl -module ROM_DK -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 ROM_DK.spl D:/Xilinx/backups/6/DK_lab4_/ROM_DK.sym 

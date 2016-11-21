@@ -1,0 +1,4 @@
+vhdtdtfi -lib work AB_ROM.vhd -prj AB_lab4 -o ROM_AB.spl -module ROM_AB -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 ROM_AB.spl D:/Xilinx/backups/6/AB_lab4/ROM_AB.sym 
+vhdtdtfi -lib work AB_ROM.vhd -prj AB_lab4 -o ROM_AB.spl -module ROM_AB -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 ROM_AB.spl C:/Users/Dima/Desktop/AB_lab4/ROM_AB.sym 

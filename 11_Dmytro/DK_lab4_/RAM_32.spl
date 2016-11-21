@@ -1,0 +1,10 @@
+[Inputs]
+WE
+CE
+OE
+CLK
+=A[3:0]=
+=DI[31:0]=
+[Outputs]
+=DQ[31:0]=
+[BiDir]

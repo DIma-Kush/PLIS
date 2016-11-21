@@ -1,0 +1,28 @@
+Command line:
+   DK_register32_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51426
+
+Mon Nov 14 11:24:42 2016
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 844.386 Meg
+
+ Total Signals          : 5
+ Total Nets             : 67
+ Total Signal Drivers   : 1
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 1
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 427
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 844.386 Meg
+
+Mon Nov 14 11:24:45 2016
+

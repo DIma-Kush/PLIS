@@ -1,0 +1,2 @@
+vhdtdtfi -lib work BUS_8_16_CONV.vhd -prj DK_lab4_ -o BUS_8_16_CONV.spl -module BUS_8_16_CONV -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 BUS_8_16_CONV.spl D:/Xilinx/backups/6/DK_lab4_/BUS_8_16_CONV.sym 

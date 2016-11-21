@@ -1,0 +1,6 @@
+vhdtdtfi -lib work DK_32_REGISTER.vhd -prj DK_lab4_ -o DK_register32.spl -module DK_register32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 DK_register32.spl D:/Xilinx/backups/6/DK_lab4_/DK_register32.sym 
+vhdtdtfi -lib work DK_32_REGISTER.vhd -prj DK_lab4_ -o DK_register32.spl -module DK_register32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 DK_register32.spl D:/Xilinx/backups/6/DK_lab4_/DK_register32.sym 
+vhdtdtfi -lib work DK_32_REGISTER.vhd -prj DK_lab4_ -o DK_register32.spl -module DK_register32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 DK_register32.spl D:/Xilinx/backups/6/DK_lab4_/DK_register32.sym 

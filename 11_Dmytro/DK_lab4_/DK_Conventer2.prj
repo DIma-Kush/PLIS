@@ -1,0 +1,4 @@
+vhdl work "DK_converter1.vhd"
+vhdl work "DK_sch.vhf"
+vhdl work "test.vhf"
+vhdl work "DK_conventer2.vhd"

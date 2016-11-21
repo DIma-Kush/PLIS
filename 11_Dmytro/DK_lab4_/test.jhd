@@ -1,0 +1,3 @@
+MODULE test
+	SUBMODULE dk_pipeline_mult2
+		INSTANCE XLXI_7

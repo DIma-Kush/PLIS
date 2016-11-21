@@ -1,0 +1,2 @@
+vhdtdtfi -lib work AB_register_20.vhd -prj AB_lab4 -o AB_register20.spl -module AB_register20 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 AB_register20.spl D:/Xilinx/backups/6/AB_lab4/AB_register20.sym 

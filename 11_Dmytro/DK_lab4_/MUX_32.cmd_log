@@ -1,0 +1,14 @@
+vhdtdtfi -lib work MUX_32.vhd -prj DK_lab4_ -o MUX_32.spl -module MUX_32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 MUX_32.spl D:/Xilinx/backups/6/DK_lab4_/MUX_32.sym 
+vhdtdtfi -lib work MUX_32.vhd -prj DK_lab4_ -o MUX_32.spl -module MUX_32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 MUX_32.spl D:/Xilinx/backups/6/DK_lab4_/MUX_32.sym 
+vhdtdtfi -lib work MUX_32.vhd -prj DK_lab4_ -o MUX_32.spl -module MUX_32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 MUX_32.spl D:/Xilinx/backups/6/DK_lab4_/MUX_32.sym 
+vhdtdtfi -lib work MUX_32.vhd -prj DK_lab4_ -o MUX_32.spl -module MUX_32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 MUX_32.spl D:/Xilinx/backups/6/DK_lab4_/MUX_32.sym 
+vhdtdtfi -lib work MUX_32.vhd -prj DK_lab4_ -o MUX_32.spl -module MUX_32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 MUX_32.spl D:/Xilinx/backups/6/DK_lab4_/MUX_32.sym 
+vhdtdtfi -lib work MUX_32.vhd -prj DK_lab4_ -o MUX_32.spl -module MUX_32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 MUX_32.spl D:/Xilinx/backups/6/DK_lab4_/MUX_32.sym 
+vhdtdtfi -lib work MUX_32.vhd -prj DK_lab4_ -o MUX_32.spl -module MUX_32 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 MUX_32.spl D:/Xilinx/backups/6/DK_lab4_/MUX_32.sym 

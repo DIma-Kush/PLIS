@@ -1,0 +1,90 @@
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+sch2hdl -intstyle ise -family virtex7 -flat -suppress -vhdl DK_sch_drc.vhf -w D:/Xilinx/DK_lab4_/DK_sch.sch 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7vx330t-ffg1157-3 DK_sch.ngc DK_sch.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o DK_sch_map.ncd DK_sch.ngd DK_sch.pcf 
+par -w -intstyle ise -ol high -mt off DK_sch_map.ncd DK_sch.ncd DK_sch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DK_sch.twx DK_sch.ncd -o DK_sch.twr DK_sch.pcf 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7vx330t-ffg1157-3 DK_sch.ngc DK_sch.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7vx330t-ffg1157-3 DK_sch.ngc DK_sch.ngd  
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7vx330t-ffg1157-3 DK_sch.ngc DK_sch.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o DK_sch_map.ncd DK_sch.ngd DK_sch.pcf 
+par -w -intstyle ise -ol high -mt off DK_sch_map.ncd DK_sch.ncd DK_sch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DK_sch.twx DK_sch.ncd -o DK_sch.twr DK_sch.pcf 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7vx330t-ffg1157-3 DK_sch.ngc DK_sch.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o DK_sch_map.ncd DK_sch.ngd DK_sch.pcf 
+par -w -intstyle ise -ol high -mt off DK_sch_map.ncd DK_sch.ncd DK_sch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DK_sch.twx DK_sch.ncd -o DK_sch.twr DK_sch.pcf 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7vx330t-ffg1157-3 DK_sch.ngc DK_sch.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o DK_sch_map.ncd DK_sch.ngd DK_sch.pcf 
+par -w -intstyle ise -ol high -mt off DK_sch_map.ncd DK_sch.ncd DK_sch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DK_sch.twx DK_sch.ncd -o DK_sch.twr DK_sch.pcf 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7vx330t-ffg1157-3 DK_sch.ngc DK_sch.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o DK_sch_map.ncd DK_sch.ngd DK_sch.pcf 
+par -w -intstyle ise -ol high -mt off DK_sch_map.ncd DK_sch.ncd DK_sch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DK_sch.twx DK_sch.ncd -o DK_sch.twr DK_sch.pcf 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7vx330t-ffg1157-3 DK_sch.ngc DK_sch.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o DK_sch_map.ncd DK_sch.ngd DK_sch.pcf 
+par -w -intstyle ise -ol high -mt off DK_sch_map.ncd DK_sch.ncd DK_sch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DK_sch.twx DK_sch.ncd -o DK_sch.twr DK_sch.pcf 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7vx330t-ffg1157-3 DK_sch.ngc DK_sch.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o DK_sch_map.ncd DK_sch.ngd DK_sch.pcf 
+sch2hdl -sympath D:/Xilinx/backups/6/DK_lab4_/ipcore_dir -intstyle ise -family virtex7 -flat -suppress -vhdl DK_sch_drc.vhf -w D:/Xilinx/backups/6/DK_lab4_/DK_sch.sch 
+sch2sym -intstyle ise -family virtex7 -refsym DK_sch D:/Xilinx/backups/6/DK_lab4_/DK_sch.sch D:/Xilinx/backups/6/DK_lab4_/DK_sch.sym 
+sch2hdl -sympath D:/Xilinx/backups/6/DK_lab4_/ipcore_dir -intstyle ise -family virtex7 -flat -suppress -vhdl DK_sch_drc.vhf -w D:/Xilinx/backups/6/DK_lab4_/DK_sch.sch 
+xst -intstyle ise -ifn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7vx330t-ffg1157-3 DK_sch.ngc DK_sch.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o DK_sch_map.ncd DK_sch.ngd DK_sch.pcf 
+par -w -intstyle ise -ol high -mt off DK_sch_map.ncd DK_sch.ncd DK_sch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DK_sch.twx DK_sch.ncd -o DK_sch.twr DK_sch.pcf 
+xst -intstyle ise -ifn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.syr" 
+sch2hdl -sympath D:/Xilinx/backups/6/DK_lab4_/ipcore_dir -intstyle ise -family virtex7 -flat -suppress -vhdl DK_sch_drc.vhf -w D:/Xilinx/backups/6/DK_lab4_/DK_sch.sch 
+sch2sym -intstyle ise -family virtex7 -refsym DK_sch D:/Xilinx/backups/6/DK_lab4_/DK_sch.sch D:/Xilinx/backups/6/DK_lab4_/DK_sch.sym 
+sch2sym -intstyle ise -family virtex7 -refsym DK_sch D:/Xilinx/backups/6/DK_lab4_/DK_sch.sch D:/Xilinx/backups/6/DK_lab4_/DK_sch.sym 
+xst -intstyle ise -ifn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.xst" -ofn "D:/Xilinx/backups/6/DK_lab4_/DK_sch.syr" 

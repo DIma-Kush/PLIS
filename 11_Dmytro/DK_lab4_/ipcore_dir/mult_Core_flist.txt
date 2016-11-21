@@ -1,0 +1,15 @@
+# Output products list for <mult_Core>
+_xmsgs\pn_parser.xmsgs
+mult_Core.asy
+mult_Core.gise
+mult_Core.ngc
+mult_Core.sym
+mult_Core.vhd
+mult_Core.vho
+mult_Core.xco
+mult_Core.xise
+mult_Core\doc\mult_gen_ds255.pdf
+mult_Core\doc\mult_gen_v11_2_readme.txt
+mult_Core\doc\mult_gen_v11_2_vinfo.html
+mult_Core_flist.txt
+mult_Core_xmdf.tcl

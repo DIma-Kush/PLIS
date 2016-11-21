@@ -1,0 +1,56 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/Xilinx/backups/6/DK_lab4_/DK_Conv_Scheme_DK_Conv_Scheme_sch_tb_isim_beh.exe -prj D:/Xilinx/backups/6/DK_lab4_/DK_Conv_Scheme_DK_Conv_Scheme_sch_tb_beh.prj work.DK_Conv_Scheme_DK_Conv_Scheme_sch_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Xilinx/backups/6/DK_lab4_/ipcore_dir/mult_Core.vhd" into library work
+Parsing VHDL file "D:/Xilinx/backups/6/DK_lab4_/ipcore_dir/ADDER_32.vhd" into library work
+Parsing VHDL file "D:/Xilinx/backups/6/DK_lab4_/ipcore_dir/MUL32.vhd" into library work
+Parsing VHDL file "D:/Xilinx/backups/6/DK_lab4_/DK_32_REGISTER.vhd" into library work
+Parsing VHDL file "D:/Xilinx/backups/6/DK_lab4_/BUS_8_32_CONV.vhd" into library work
+Parsing VHDL file "D:/Xilinx/backups/6/DK_lab4_/BUS_8_16_CONV.vhd" into library work
+Parsing VHDL file "D:/Xilinx/backups/6/DK_lab4_/BUS_16_32_CONV.vhd" into library work
+Parsing VHDL file "D:/Xilinx/backups/6/DK_lab4_/DK_Conv_Scheme.vhf" into library work
+Parsing VHDL file "D:/Xilinx/backups/6/DK_lab4_/DK_CONV_TEST_BENCH__.vhd" into library work
+Parsing VHDL file "D:/Xilinx/backups/6/DK_lab4_/test.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture behavioral of entity FD16CE_HXILINX_DK_Conv_Scheme [fd16ce_hxilinx_dk_conv_scheme_de...]
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling package textio
+Compiling package bip_utils_pkg_v2_0
+Compiling package mult_gen_pkg_v11_2
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity mult_gen_v11_2 [\mult_gen_v11_2(0,0,"virtex7",16...]
+Compiling architecture mult_core_a of entity mult_Core [mult_core_default]
+Compiling architecture behavioral of entity mult_gen_v11_2 [\mult_gen_v11_2(0,0,"virtex7",32...]
+Compiling architecture mul32_a of entity MUL32 [mul32_default]
+Compiling package xbip_addsub_v2_0_comp
+Compiling package bip_usecase_utils_pkg_v2_0
+Compiling package c_addsub_pkg_v11_0
+Compiling package xbip_pipe_v2_0_xst_comp
+Compiling package c_reg_fd_v11_0_comp
+Compiling architecture behavioral of entity c_reg_fd_v11_0 [\c_reg_fd_v11_0(32,"0","0",1,0,1...]
+Compiling architecture behavioral of entity c_addsub_v11_0_legacy [\c_addsub_v11_0_legacy(32,32,32,...]
+Compiling architecture behavioral of entity c_addsub_v11_0 [\c_addsub_v11_0(0,"virtex7",0,32...]
+Compiling architecture adder_32_a of entity ADDER_32 [adder_32_default]
+Compiling architecture behavioral of entity BUS_8_16_CONV [bus_8_16_conv_default]
+Compiling architecture behavioral of entity BUS_16_32_CONV [bus_16_32_conv_default]
+Compiling architecture behavioral of entity FD8CE_HXILINX_DK_Conv_Scheme [fd8ce_hxilinx_dk_conv_scheme_def...]
+Compiling architecture behavioral of entity BUS_8_32_CONV [bus_8_32_conv_default]
+Compiling architecture vcc_v of entity VCC [vcc_default]
+Compiling architecture gnd_v of entity GND [gnd_default]
+Compiling architecture description of entity DK_register32 [dk_register32_default]
+Compiling architecture behavioral of entity DK_Conv_Scheme [dk_conv_scheme_default]
+Compiling architecture behavioral of entity dk_conv_scheme_dk_conv_scheme_sc...
+Time Resolution for simulation is 1ps.
+Waiting for 22 sub-compilation(s) to finish...
+Compiled 50 VHDL Units
+Built simulation executable D:/Xilinx/backups/6/DK_lab4_/DK_Conv_Scheme_DK_Conv_Scheme_sch_tb_isim_beh.exe
+Fuse Memory Usage: 58280 KB
+Fuse CPU Usage: 1749 ms

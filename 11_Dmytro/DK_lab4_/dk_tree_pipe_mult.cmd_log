@@ -1,0 +1,2 @@
+vhdtdtfi -lib work dk_tree_multiplier.vhd -prj DK_lab4_ -o dk_tree_pipe_mult.spl -module dk_tree_pipe_mult -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex7 dk_tree_pipe_mult.spl D:/Xilinx/DK_lab4_/dk_tree_pipe_mult.sym 

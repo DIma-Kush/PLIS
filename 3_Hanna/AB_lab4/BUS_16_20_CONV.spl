@@ -1,0 +1,5 @@
+[Inputs]
+=in_sig[15:0]=
+[Outputs]
+=out_sig[19:0]=
+[BiDir]

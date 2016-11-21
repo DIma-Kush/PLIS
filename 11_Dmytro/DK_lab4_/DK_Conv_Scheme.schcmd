@@ -1,0 +1,76 @@
+select figure at 2298 4029 8 -branches -sn=2
+select figure at 1809 1904 8 -branches -sn=2
+select figure at 2323 2821 8 -branches -sn=2
+select figure at 1763 2776 8 -branches -sn=2
+move instance at 1712 2832 to 2128 2928 R0 -keepConn -sn=2
+select figure at 1953 2730 8 -branches -sn=2
+move wire at 1952 2704 1952 2752 to 2016 2704 2016 2752 -keepConn -sn=2
+select figure at 2151 2788 8 -branches -sn=2
+undo
+undo
+select all in -2147483648 -2147483648 2147483647 2147483647 -sn=2
+select all in -2147483648 -2147483648 2147483647 2147483647 -sn=2
+move selection by -16 32 -keepConn -sn=2
+select figure at 2226 1717 8 -branches -sn=2
+select figure at 1002 2318 8 -branches -sn=2
+select figure at 982 2378 8 -branches -sn=2
+select figure at 988 2404 8 -branches -sn=2
+move wire at 992 1952 992 2624 to 768 1952 768 2624 -keepConn -sn=2
+undo
+select all in 1230 2522 1418 2539 -branches -enclosed -sn=2
+select figure at 1439 2583 8 -branches -sn=2
+select figure at 1216 2559 8 -branches -toggle -sn=2
+select figure at 1252 2563 8 -branches -toggle -sn=2
+select figure at 1254 2563 8 -branches -toggle -sn=2
+select figure at 1510 2835 8 -branches -sn=2
+select figure at 2410 2675 8 -branches -sn=2
+move wire at 2416 2304 2416 2976 to 2512 2304 2512 2976 -keepConn -sn=2
+select figure at 2470 2841 8 -branches -sn=2
+select figure at 2159 2595 8 -branches -sn=2
+move instance at 1952 2768 to 2144 2768 R0 -keepConn -sn=2
+select figure at 2627 2618 8 -branches -sn=2
+select figure at 2508 2372 8 -branches -sn=2
+move wire at 2512 2304 2512 2976 to 2560 2304 2560 2976 -keepConn -sn=2
+select figure at 2415 2310 8 -branches -sn=2
+select figure at 1925 2508 8 -branches -sn=2
+delete selection -sn=2
+select figure at 1930 2689 8 -branches -sn=2
+select figure at 1915 2660 8 -branches -sn=2
+select figure at 1906 2653 8 -branches -sn=2
+select figure at 1899 2648 8 -branches -sn=2
+move wire at 1712 2640 2144 2640 to 1712 2880 2144 2880 -keepConn -sn=2
+select figure at 1689 2570 8 -branches -sn=2
+move instance at 1744 2624 to 2000 2832 R270 -keepConn -sn=2
+select figure at 1873 2546 8 -branches -sn=2
+select figure at 1539 2546 8 -branches -sn=2
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+select figure at 4213 2622 8 -branches -sn=2
+select figure at 6274 2494 8 -branches -sn=2
+select figure at 1907 2526 8 -branches -sn=2
+select figure at 1907 2508 8 -branches -sn=2
+delete selection -sn=2
+select figure at 1707 2568 8 -branches -sn=2
+move instance at 1744 2624 to 2032 2848 R270 -keepConn -sn=2
+select figure at 1866 2641 8 -branches -sn=2
+move wire at 1712 2640 2144 2640 to 1712 2720 2144 2720 -keepConn -sn=2
+select figure at 1592 2599 8 -branches -sn=2
+BeginGroup
+ADD INSTANCE fd8ce 1680 2688 R0 -sn=2
+PASTE NAME INSTANCE AT 1872 2512 XLXI_253 -NoDuplicateNetNames -sn=2
+EndGroup
+select figure at 1624 2381 8 -branches -sn=2
+select figure at 1808 2494 8 -branches -sn=2
+move instance at 1680 2688 to 1696 2688 R0 -keepConn -sn=2
+select figure at 1668 2381 8 -branches -sn=2

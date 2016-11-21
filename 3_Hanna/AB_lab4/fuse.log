@@ -1,0 +1,64 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Dima/Desktop/AB_lab4/AB_not_conv_scheme_AB_not_conv_scheme_sch_tb_isim_beh.exe -prj C:/Users/Dima/Desktop/AB_lab4/AB_not_conv_scheme_AB_not_conv_scheme_sch_tb_beh.prj work.AB_not_conv_scheme_AB_not_conv_scheme_sch_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Dima/Desktop/AB_lab4/ipcore_dir/AB_ADDER_16_32.vhd" into library work
+Parsing VHDL file "C:/Users/Dima/Desktop/AB_lab4/ipcore_dir/AB_Counter.vhd" into library work
+Parsing VHDL file "C:/Users/Dima/Desktop/AB_lab4/ipcore_dir/MUL_20.vhd" into library work
+Parsing VHDL file "C:/Users/Dima/Desktop/AB_lab4/BUS_8_20.vhd" into library work
+Parsing VHDL file "C:/Users/Dima/Desktop/AB_lab4/AB_ROM.vhd" into library work
+Parsing VHDL file "C:/Users/Dima/Desktop/AB_lab4/AB_register_20.vhd" into library work
+Parsing VHDL file "C:/Users/Dima/Desktop/AB_lab4/AB_RAM.vhd" into library work
+Parsing VHDL file "C:/Users/Dima/Desktop/AB_lab4/AB_MUX20.vhd" into library work
+Parsing VHDL file "C:/Users/Dima/Desktop/AB_lab4/AB_not_conv_scheme.vhf" into library work
+Parsing VHDL file "C:/Users/Dima/Desktop/AB_lab4/AB_not_conv_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture rom_ab of entity ROM_AB [rom_ab_default]
+Compiling package textio
+Compiling package bip_utils_pkg_v2_0
+Compiling package xbip_counter_v2_0_pkg
+Compiling package c_counter_binary_v11_0_pkg
+Compiling package xbip_counter_v2_0_xst_comp
+Compiling package bip_usecase_utils_pkg_v2_0
+Compiling package c_addsub_pkg_v11_0
+Compiling package c_compare_v11_0_comp
+Compiling package c_mux_bus_v11_0_comp
+Compiling package c_reg_fd_v11_0_comp
+Compiling architecture behavioral of entity c_reg_fd_v11_0 [\c_reg_fd_v11_0(4,"0","0",1,0,0,...]
+Compiling architecture behavioral of entity c_addsub_v11_0_legacy [\c_addsub_v11_0_legacy(4,4,4,0,3...]
+Compiling architecture behavioral of entity c_reg_fd_v11_0 [\c_reg_fd_v11_0(1,"0","0",1,0,0,...]
+Compiling architecture behavioral of entity c_compare_v11_0 [\c_compare_v11_0(4,"0",1,1,"1001...]
+Compiling architecture behavioral of entity c_counter_binary_v11_0_legacy [\c_counter_binary_v11_0_legacy("...]
+Compiling architecture behavioral of entity c_counter_binary_v11_0 [\c_counter_binary_v11_0(0,0,"vir...]
+Compiling architecture ab_counter_a of entity AB_Counter [ab_counter_default]
+Compiling architecture behavioral of entity MUX_20 [mux_20_default]
+Compiling architecture ab_ram of entity AB_RAM [ab_ram_default]
+Compiling package std_logic_signed
+Compiling package mult_gen_pkg_v11_2
+Compiling architecture behavioral of entity mult_gen_v11_2 [\mult_gen_v11_2(0,0,"virtex7",20...]
+Compiling architecture mul_20_a of entity MUL_20 [mul_20_default]
+Compiling package xbip_addsub_v2_0_comp
+Compiling package xbip_pipe_v2_0_xst_comp
+Compiling architecture behavioral of entity c_reg_fd_v11_0 [\c_reg_fd_v11_0(20,"0","0",1,0,1...]
+Compiling architecture behavioral of entity c_addsub_v11_0_legacy [\c_addsub_v11_0_legacy(20,20,20,...]
+Compiling architecture behavioral of entity c_addsub_v11_0 [\c_addsub_v11_0(0,"virtex7",0,20...]
+Compiling architecture ab_adder_16_32_a of entity AB_ADDER_16_32 [ab_adder_16_32_default]
+Compiling architecture description of entity AB_register20 [ab_register20_default]
+Compiling architecture vcc_v of entity VCC [vcc_default]
+Compiling architecture behavioral of entity BUS_8_20_CONV [bus_8_20_conv_default]
+Compiling architecture behavioral of entity AB_not_conv_scheme [ab_not_conv_scheme_default]
+Compiling architecture behavioral of entity ab_not_conv_scheme_ab_not_conv_s...
+Time Resolution for simulation is 1ps.
+Waiting for 32 sub-compilation(s) to finish...
+Compiled 61 VHDL Units
+Built simulation executable C:/Users/Dima/Desktop/AB_lab4/AB_not_conv_scheme_AB_not_conv_scheme_sch_tb_isim_beh.exe
+Fuse Memory Usage: 60592 KB
+Fuse CPU Usage: 1983 ms

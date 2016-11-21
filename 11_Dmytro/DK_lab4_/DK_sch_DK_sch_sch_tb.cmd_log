@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Xilinx/DK_lab4_/DK_sch_DK_sch_sch_tb.xst" -ofn "D:/Xilinx/DK_lab4_/DK_sch_DK_sch_sch_tb.syr" 

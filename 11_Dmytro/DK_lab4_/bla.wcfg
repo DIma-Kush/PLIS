@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Xilinx/DK_lab4_/DK_sch_DK_sch_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="bip_utils_pkg_v2_0" />
+            <top_module name="dk_sch_dk_sch_sch_tb" />
+            <top_module name="mult_gen_pkg_v11_2" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/dk_c" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dk_c[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dk_c[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/dk_d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dk_d[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dk_d[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/dk_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dk_b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dk_b[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/dk_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dk_a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dk_a[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/dk_out2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dk_out2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dk_out2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/c" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c</obj_property>
+      <obj_property name="ObjectShortName">c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/UUT/buf_a_stage2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">buf_a_stage2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_a_stage2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/UUT/buf_a_stage3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">buf_a_stage3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_a_stage3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/UUT/buf_b_stage2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">buf_b_stage2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_b_stage2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/UUT/buf_b_stage3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">buf_b_stage3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_b_stage3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/UUT/buf_b_to_add" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">buf_b_to_add[15:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_b_to_add[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/UUT/buf_result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">buf_result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_result[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/UUT/c_mul_c" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">c_mul_c[15:0]</obj_property>
+      <obj_property name="ObjectShortName">c_mul_c[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/UUT/first_mul_to_buf" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">first_mul_to_buf[15:0]</obj_property>
+      <obj_property name="ObjectShortName">first_mul_to_buf[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/UUT/from_buf_a_stage3_to_mul" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">from_buf_a_stage3_to_mul[15:0]</obj_property>
+      <obj_property name="ObjectShortName">from_buf_a_stage3_to_mul[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/UUT/from_buf_to_add" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">from_buf_to_add[15:0]</obj_property>
+      <obj_property name="ObjectShortName">from_buf_to_add[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/UUT/from_buf_to_mul2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">from_buf_to_mul2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">from_buf_to_mul2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/UUT/from_buf_to_sub_c" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">from_buf_to_sub_c[15:0]</obj_property>
+      <obj_property name="ObjectShortName">from_buf_to_sub_c[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/UUT/from_buf_to_sub_d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">from_buf_to_sub_d[15:0]</obj_property>
+      <obj_property name="ObjectShortName">from_buf_to_sub_d[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/UUT/from_mul_one_to_buf" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">from_mul_one_to_buf[15:0]</obj_property>
+      <obj_property name="ObjectShortName">from_mul_one_to_buf[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/UUT/from_sub_to_buf" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">from_sub_to_buf[15:0]</obj_property>
+      <obj_property name="ObjectShortName">from_sub_to_buf[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dk_sch_dk_sch_sch_tb/UUT/xlxn_132" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">xlxn_132[15:0]</obj_property>
+      <obj_property name="ObjectShortName">xlxn_132[15:0]</obj_property>
+   </wvobject>
+</wave_config>

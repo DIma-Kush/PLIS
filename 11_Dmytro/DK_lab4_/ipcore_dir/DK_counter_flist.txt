@@ -1,0 +1,17 @@
+# Output products list for <DK_counter>
+DK_counter.asy
+DK_counter.gise
+DK_counter.ngc
+DK_counter.sym
+DK_counter.vhd
+DK_counter.vho
+DK_counter.xco
+DK_counter.xise
+DK_counter\doc\c_counter_binary_v11_0_readme.txt
+DK_counter\doc\c_counter_binary_v11_0_vinfo.html
+DK_counter\doc\ds215_counter.pdf
+DK_counter_flist.txt
+DK_counter_xmdf.tcl
+_xmsgs\pn_parser.xmsgs
+core_resources.txt
+gui_latency.txt

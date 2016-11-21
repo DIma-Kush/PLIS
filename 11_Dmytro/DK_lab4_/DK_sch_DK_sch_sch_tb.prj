@@ -1,0 +1,4 @@
+vhdl work "DK_converter1.vhd"
+vhdl work "DK_sch.vhf"
+vhdl work "DK_TB_NOT_CONV.vhd"
+vhdl work "test.vhf"

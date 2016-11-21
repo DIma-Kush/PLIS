@@ -1,0 +1,573 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: test.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "test.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "test"
+Output Format                      : NGC
+Target Device                      : xc7vx330t-3-ffg1157
+
+---- Source Options
+Top Module Name                    : test
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\Xilinx\DK_lab4_\testtest.vhd" into library work
+Parsing entity <dk_pipeline_mult2>.
+Parsing architecture <Behavioral> of entity <dk_pipeline_mult2>.
+Parsing VHDL file "D:\Xilinx\DK_lab4_\test.vhf" into library work
+Parsing entity <test>.
+Parsing architecture <BEHAVIORAL> of entity <test>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <test> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <dk_pipeline_mult2> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:1127 - "D:\Xilinx\DK_lab4_\testtest.vhd" Line 36: Assignment to dk_pp7_reg ignored, since the identifier is never used
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <test>.
+    Related source file is "D:\Xilinx\DK_lab4_\test.vhf".
+    Summary:
+	no macro.
+Unit <test> synthesized.
+
+Synthesizing Unit <dk_pipeline_mult2>.
+    Related source file is "D:\Xilinx\DK_lab4_\testtest.vhd".
+    Found 1-bit register for signal <dk_b6_reg<7>>.
+    Found 16-bit register for signal <dk_pp2_reg>.
+    Found 16-bit register for signal <dk_pp3_reg>.
+    Found 16-bit register for signal <dk_pp4_reg>.
+    Found 16-bit register for signal <dk_pp5_reg>.
+    Found 16-bit register for signal <dk_pp6_reg>.
+    Found 16-bit register for signal <dk_dpp1_reg>.
+    Found 16-bit register for signal <dk_dpp2_reg>.
+    Found 16-bit register for signal <dk_dpp3_reg>.
+    Found 16-bit register for signal <dk_dpp4_reg>.
+    Found 16-bit register for signal <dk_dpp5_reg>.
+    Found 16-bit register for signal <dk_dpp6_reg>.
+    Found 16-bit register for signal <dk_pp1_reg>.
+    Found 8-bit register for signal <dk_a1_reg>.
+    Found 8-bit register for signal <dk_a2_reg>.
+    Found 8-bit register for signal <dk_a3_reg>.
+    Found 8-bit register for signal <dk_a4_reg>.
+    Found 8-bit register for signal <dk_a5_reg>.
+    Found 8-bit register for signal <dk_a6_reg>.
+    Found 8-bit register for signal <dk_b1_reg>.
+    Found 8-bit register for signal <dk_b2_reg>.
+    Found 8-bit register for signal <dk_b3_reg>.
+    Found 8-bit register for signal <dk_b4_reg>.
+    Found 8-bit register for signal <dk_b5_reg>.
+    Found 8-bit register for signal <dk_d1_reg>.
+    Found 8-bit register for signal <dk_d2_reg>.
+    Found 8-bit register for signal <dk_d3_reg>.
+    Found 8-bit register for signal <dk_d4_reg>.
+    Found 8-bit register for signal <dk_d5_reg>.
+    Found 8-bit register for signal <dk_d6_reg>.
+    Found 16-bit adder for signal <dk_pp1_next> created at line 117.
+    Found 16-bit adder for signal <dk_dpp1_next> created at line 129.
+    Found 16-bit adder for signal <dk_pp2_next> created at line 135.
+    Found 16-bit adder for signal <dk_dpp2_next> created at line 141.
+    Found 16-bit adder for signal <dk_pp3_next> created at line 146.
+    Found 16-bit adder for signal <dk_dpp3_next> created at line 151.
+    Found 16-bit adder for signal <dk_pp4_next> created at line 157.
+    Found 16-bit adder for signal <dk_dpp4_next> created at line 163.
+    Found 16-bit adder for signal <dk_pp5_next> created at line 168.
+    Found 16-bit adder for signal <dk_dpp5_next> created at line 173.
+    Found 16-bit adder for signal <dk_pp6_next> created at line 178.
+    Found 16-bit adder for signal <dk_dpp6_next> created at line 183.
+    Found 16-bit adder for signal <_n0326> created at line 31.
+    Found 16-bit adder for signal <_n0327> created at line 31.
+    Found 16-bit adder for signal <dk_w> created at line 31.
+    Summary:
+	inferred  15 Adder/Subtractor(s).
+	inferred 329 D-type flip-flop(s).
+Unit <dk_pipeline_mult2> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 15
+ 16-bit adder                                          : 15
+# Registers                                            : 30
+ 1-bit register                                        : 1
+ 16-bit register                                       : 12
+ 8-bit register                                        : 17
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:2677 - Node <dk_b1_reg_0> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b1_reg_1> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b2_reg_0> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b2_reg_1> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b2_reg_2> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b3_reg_0> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b3_reg_1> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b3_reg_2> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b3_reg_3> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b4_reg_0> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b4_reg_1> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b4_reg_2> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b4_reg_3> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b4_reg_4> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b5_reg_0> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b5_reg_1> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b5_reg_2> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b5_reg_3> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b5_reg_4> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b5_reg_5> of sequential type is unconnected in block <XLXI_7>.
+WARNING:Xst:2677 - Node <dk_b1_reg_0> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b1_reg_1> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b2_reg_0> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b2_reg_1> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b2_reg_2> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b3_reg_0> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b3_reg_1> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b3_reg_2> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b3_reg_3> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b4_reg_0> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b4_reg_1> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b4_reg_2> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b4_reg_3> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b4_reg_4> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b5_reg_0> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b5_reg_1> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b5_reg_2> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b5_reg_3> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b5_reg_4> of sequential type is unconnected in block <dk_pipeline_mult2>.
+WARNING:Xst:2677 - Node <dk_b5_reg_5> of sequential type is unconnected in block <dk_pipeline_mult2>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 15
+ 16-bit adder                                          : 15
+# Registers                                            : 309
+ Flip-Flops                                            : 309
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <dk_pp1_reg_15> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp1_reg_14> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp1_reg_13> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp1_reg_12> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp1_reg_11> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp1_reg_10> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp1_reg_15> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp1_reg_14> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp1_reg_13> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp1_reg_12> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp1_reg_11> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp1_reg_10> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp1_reg_1> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp2_reg_15> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp2_reg_14> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp2_reg_13> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp2_reg_12> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp2_reg_11> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp2_reg_1> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp2_reg_15> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp2_reg_14> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp2_reg_13> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp2_reg_12> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp2_reg_11> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp3_reg_15> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp3_reg_14> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp3_reg_13> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp3_reg_12> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp3_reg_1> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp3_reg_15> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp3_reg_14> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp3_reg_13> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp3_reg_12> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp4_reg_15> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp4_reg_14> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp4_reg_13> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp4_reg_1> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp4_reg_15> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp4_reg_14> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp4_reg_13> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp5_reg_14> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp5_reg_15> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp5_reg_1> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp5_reg_14> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp5_reg_15> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_pp6_reg_15> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp6_reg_1> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dk_dpp6_reg_15> (without init value) has a constant value of 0 in block <dk_pipeline_mult2>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <dk_d1_reg_0> in Unit <dk_pipeline_mult2> is equivalent to the following FF/Latch, which will be removed : <dk_dpp1_reg_0> 
+INFO:Xst:2261 - The FF/Latch <dk_d2_reg_0> in Unit <dk_pipeline_mult2> is equivalent to the following FF/Latch, which will be removed : <dk_dpp2_reg_0> 
+INFO:Xst:2261 - The FF/Latch <dk_d3_reg_0> in Unit <dk_pipeline_mult2> is equivalent to the following FF/Latch, which will be removed : <dk_dpp3_reg_0> 
+INFO:Xst:2261 - The FF/Latch <dk_d4_reg_0> in Unit <dk_pipeline_mult2> is equivalent to the following FF/Latch, which will be removed : <dk_dpp4_reg_0> 
+INFO:Xst:2261 - The FF/Latch <dk_d5_reg_0> in Unit <dk_pipeline_mult2> is equivalent to the following FF/Latch, which will be removed : <dk_dpp5_reg_0> 
+INFO:Xst:2261 - The FF/Latch <dk_d6_reg_0> in Unit <dk_pipeline_mult2> is equivalent to the following FF/Latch, which will be removed : <dk_dpp6_reg_0> 
+
+Optimizing unit <test> ...
+
+Optimizing unit <dk_pipeline_mult2> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block test, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <test> :
+	Found 4-bit shift register for signal <XLXI_7/dk_dpp6_reg_3>.
+	Found 5-bit shift register for signal <XLXI_7/dk_dpp6_reg_2>.
+	Found 4-bit shift register for signal <XLXI_7/dk_pp6_reg_3>.
+	Found 5-bit shift register for signal <XLXI_7/dk_pp6_reg_2>.
+	Found 6-bit shift register for signal <XLXI_7/dk_pp6_reg_1>.
+	Found 5-bit shift register for signal <XLXI_7/dk_pp6_reg_0>.
+	Found 6-bit shift register for signal <XLXI_7/dk_b6_reg>.
+	Found 5-bit shift register for signal <XLXI_7/dk_b5_reg_6>.
+	Found 4-bit shift register for signal <XLXI_7/dk_b4_reg_5>.
+Unit <test> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 211
+ Flip-Flops                                            : 211
+# Shift Registers                                      : 9
+ 4-bit shift register                                  : 3
+ 5-bit shift register                                  : 4
+ 6-bit shift register                                  : 2
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : test.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 421
+#      GND                         : 1
+#      LUT1                        : 1
+#      LUT2                        : 58
+#      LUT3                        : 83
+#      LUT4                        : 19
+#      LUT5                        : 2
+#      MUXCY                       : 119
+#      VCC                         : 1
+#      XORCY                       : 137
+# FlipFlops/Latches                : 234
+#      FDC                         : 211
+#      FDCE                        : 14
+#      FDE                         : 9
+# Shift Registers                  : 9
+#      SRLC16E                     : 9
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 41
+#      IBUF                        : 25
+#      OBUF                        : 16
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7vx330tffg1157-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             234  out of  408000     0%  
+ Number of Slice LUTs:                  172  out of  204000     0%  
+    Number used as Logic:               163  out of  204000     0%  
+    Number used as Memory:                9  out of  70200     0%  
+       Number used as SRL:                9
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    294
+   Number with an unused Flip Flop:      60  out of    294    20%  
+   Number with an unused LUT:           122  out of    294    41%  
+   Number of fully used LUT-FF pairs:   112  out of    294    38%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          42
+ Number of bonded IOBs:                  42  out of    600     7%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+DK_CLK                             | BUFGP                  | 243   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 1.272ns (Maximum Frequency: 786.287MHz)
+   Minimum input arrival time before clock: 1.120ns
+   Maximum output required time after clock: 3.087ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'DK_CLK'
+  Clock period: 1.272ns (frequency: 786.287MHz)
+  Total number of paths / destination ports: 1776 / 202
+-------------------------------------------------------------------------
+Delay:               1.272ns (Levels of Logic = 10)
+  Source:            XLXI_7/dk_dpp5_reg_6 (FF)
+  Destination:       XLXI_7/dk_dpp6_reg_14 (FF)
+  Source Clock:      DK_CLK rising
+  Destination Clock: DK_CLK rising
+
+  Data Path: XLXI_7/dk_dpp5_reg_6 to XLXI_7/dk_dpp6_reg_14
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.232   0.428  XLXI_7/dk_dpp5_reg_6 (XLXI_7/dk_dpp5_reg_6)
+     LUT3:I0->O            1   0.043   0.000  XLXI_7/Madd_dk_dpp6_next_lut<6> (XLXI_7/Madd_dk_dpp6_next_lut<6>)
+     MUXCY:S->O            1   0.230   0.000  XLXI_7/Madd_dk_dpp6_next_cy<6> (XLXI_7/Madd_dk_dpp6_next_cy<6>)
+     MUXCY:CI->O           1   0.012   0.000  XLXI_7/Madd_dk_dpp6_next_cy<7> (XLXI_7/Madd_dk_dpp6_next_cy<7>)
+     MUXCY:CI->O           1   0.012   0.000  XLXI_7/Madd_dk_dpp6_next_cy<8> (XLXI_7/Madd_dk_dpp6_next_cy<8>)
+     MUXCY:CI->O           1   0.012   0.000  XLXI_7/Madd_dk_dpp6_next_cy<9> (XLXI_7/Madd_dk_dpp6_next_cy<9>)
+     MUXCY:CI->O           1   0.012   0.000  XLXI_7/Madd_dk_dpp6_next_cy<10> (XLXI_7/Madd_dk_dpp6_next_cy<10>)
+     MUXCY:CI->O           1   0.012   0.000  XLXI_7/Madd_dk_dpp6_next_cy<11> (XLXI_7/Madd_dk_dpp6_next_cy<11>)
+     MUXCY:CI->O           1   0.012   0.000  XLXI_7/Madd_dk_dpp6_next_cy<12> (XLXI_7/Madd_dk_dpp6_next_cy<12>)
+     MUXCY:CI->O           0   0.013   0.000  XLXI_7/Madd_dk_dpp6_next_cy<13> (XLXI_7/Madd_dk_dpp6_next_cy<13>)
+     XORCY:CI->O           1   0.251   0.000  XLXI_7/Madd_dk_dpp6_next_xor<14> (XLXI_7/dk_dpp6_next<14>)
+     FDC:D                    -0.001          XLXI_7/dk_dpp6_reg_14
+    ----------------------------------------
+    Total                      1.272ns (0.844ns logic, 0.428ns route)
+                                       (66.3% logic, 33.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'DK_CLK'
+  Total number of paths / destination ports: 682 / 265
+-------------------------------------------------------------------------
+Offset:              1.120ns (Levels of Logic = 10)
+  Source:            DK_B<0> (PAD)
+  Destination:       XLXI_7/dk_pp1_reg_8 (FF)
+  Destination Clock: DK_CLK rising
+
+  Data Path: DK_B<0> to XLXI_7/dk_pp1_reg_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            15   0.000   0.521  DK_B_0_IBUF (DK_B_0_IBUF)
+     LUT4:I0->O            1   0.043   0.000  XLXI_7/Madd_dk_pp1_next_lut<1> (XLXI_7/Madd_dk_pp1_next_lut<1>)
+     MUXCY:S->O            1   0.230   0.000  XLXI_7/Madd_dk_pp1_next_cy<1> (XLXI_7/Madd_dk_pp1_next_cy<1>)
+     MUXCY:CI->O           1   0.012   0.000  XLXI_7/Madd_dk_pp1_next_cy<2> (XLXI_7/Madd_dk_pp1_next_cy<2>)
+     MUXCY:CI->O           1   0.012   0.000  XLXI_7/Madd_dk_pp1_next_cy<3> (XLXI_7/Madd_dk_pp1_next_cy<3>)
+     MUXCY:CI->O           1   0.012   0.000  XLXI_7/Madd_dk_pp1_next_cy<4> (XLXI_7/Madd_dk_pp1_next_cy<4>)
+     MUXCY:CI->O           1   0.012   0.000  XLXI_7/Madd_dk_pp1_next_cy<5> (XLXI_7/Madd_dk_pp1_next_cy<5>)
+     MUXCY:CI->O           1   0.012   0.000  XLXI_7/Madd_dk_pp1_next_cy<6> (XLXI_7/Madd_dk_pp1_next_cy<6>)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_7/Madd_dk_pp1_next_cy<7> (XLXI_7/Madd_dk_pp1_next_cy<7>)
+     XORCY:CI->O           1   0.251   0.000  XLXI_7/Madd_dk_pp1_next_xor<8> (XLXI_7/dk_pp1_next<8>)
+     FDC:D                    -0.001          XLXI_7/dk_pp1_reg_8
+    ----------------------------------------
+    Total                      1.120ns (0.599ns logic, 0.521ns route)
+                                       (53.5% logic, 46.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'DK_CLK'
+  Total number of paths / destination ports: 2002 / 16
+-------------------------------------------------------------------------
+Offset:              3.087ns (Levels of Logic = 13)
+  Source:            XLXI_7/dk_b6_reg (FF)
+  Destination:       DK_OUT<15> (PAD)
+  Source Clock:      DK_CLK rising
+
+  Data Path: XLXI_7/dk_b6_reg to DK_OUT<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             9   0.232   0.380  XLXI_7/dk_b6_reg (XLXI_7/dk_b6_reg)
+     LUT2:I0->O            2   0.043   0.432  XLXI_7/dk_bp7<14:7><1>1 (XLXI_7/dk_bp7<8>)
+     LUT3:I0->O            1   0.043   0.289  XLXI_7/Madd__n03271 (XLXI_7/Madd__n03271)
+     LUT4:I3->O            1   0.043   0.000  XLXI_7/Madd__n0327_lut<0>9 (XLXI_7/Madd__n0327_lut<0>9)
+     MUXCY:S->O            1   0.230   0.000  XLXI_7/Madd__n0327_cy<0>_8 (XLXI_7/Madd__n0327_cy<0>9)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_7/Madd__n0327_cy<0>_9 (XLXI_7/Madd__n0327_cy<0>10)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_7/Madd__n0327_cy<0>_10 (XLXI_7/Madd__n0327_cy<0>11)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_7/Madd__n0327_cy<0>_11 (XLXI_7/Madd__n0327_cy<0>12)
+     MUXCY:CI->O           1   0.013   0.000  XLXI_7/Madd__n0327_cy<0>_12 (XLXI_7/Madd__n0327_cy<0>13)
+     XORCY:CI->O           1   0.251   0.289  XLXI_7/Madd__n0327_xor<0>_13 (XLXI_7/_n0327<14>)
+     LUT2:I1->O            1   0.043   0.000  XLXI_7/Madd_dk_w_lut<14> (XLXI_7/Madd_dk_w_lut<14>)
+     MUXCY:S->O            0   0.230   0.000  XLXI_7/Madd_dk_w_cy<14> (XLXI_7/Madd_dk_w_cy<14>)
+     XORCY:CI->O           1   0.251   0.279  XLXI_7/Madd_dk_w_xor<15> (DK_OUT_15_OBUF)
+     OBUF:I->O                 0.000          DK_OUT_15_OBUF (DK_OUT<15>)
+    ----------------------------------------
+    Total                      3.087ns (1.416ns logic, 1.671ns route)
+                                       (45.9% logic, 54.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock DK_CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+DK_CLK         |    1.272|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 23.00 secs
+Total CPU time to Xst completion: 23.36 secs
+ 
+--> 
+
+Total memory usage is 427160 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   89 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+
